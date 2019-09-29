@@ -1,0 +1,220 @@
+new equipment "Summon_OdinAERO_WindElemental_Equip"
+add equipmentgroup
+add equipment entry "_Summon_OdinAERO_WindElemental"
+
+new equipment "OdinAERO_Class_Tempest_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Air"
+add equipmentgroup
+add equipment entry "GRN_Grenade_WaterBalloon_A"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinAERO_Class_Tempest_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Air"
+add equipmentgroup
+add equipment entry "GRN_Grenade_WaterBalloon_A"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinAERO_Class_Tempest_Preview"
+add equipmentgroup
+add equipment entry "ARM_Tempest_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Tempest_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Tempest_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Tempest_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Tempest_Boots"
+add equipmentgroup
+add equipment entry "WPN_Staff_Air"
+
+new equipment "OdinAERO_Class_Electromancer_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Air"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "GRN_Grenade_WaterBalloon_A"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Air"
+
+new equipment "OdinAERO_Class_Electromancer_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Air"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "GRN_Grenade_WaterBalloon_A"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Air"
+
+new equipment "OdinAERO_Class_Electromancer_Preview"
+add equipmentgroup
+add equipment entry "ARM_Electromancer_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Electromancer_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Electromancer_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Electromancer_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Electromancer_Boots"
+add equipmentgroup
+add equipment entry "WPN_Wand_Air"
+add equipmentgroup
+add equipment entry "WPN_Wand_Air"
+
+new equipment "OdinAERO_Class_Thunderlord_Preview"
+add equipmentgroup
+add equipment entry "ARM_Thunderlord_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Thunderlord_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Thunderlord_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Thunderlord_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Thunderlord_Boots"
+add equipmentgroup
+add equipment entry "WPN_OdinAERO_StormHammer"
+
+new equipment "OdinAERO_Class_Thunderlord_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "WPN_OdinAERO_StormHammer"
+
+new equipment "OdinAERO_Class_Thunderlord_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinAERO_Class_Windweaver_Preview"
+add equipmentgroup
+add equipment entry "ARM_Windcaller_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Windcaller_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Windcaller_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Windcaller_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Windcaller_Boots"
+add equipmentgroup
+add equipment entry "WPN_Wand_Air"
+add equipmentgroup
+add equipment entry "WPN_Cleric_Shield_Humans"
+
+new equipment "OdinAERO_Class_Windweaver_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Air"
+add equipmentgroup
+add equipment entry "WPN_CraftedShield"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "GRN_Grenade_WaterBalloon_A"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinAERO_Class_Windweaver_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Air"
+add equipmentgroup
+add equipment entry "WPN_CraftedShield"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "GRN_Grenade_WaterBalloon_A"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+

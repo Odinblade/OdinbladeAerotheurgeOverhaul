@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="5d537a8b-7d4e-412b-a070-b23dc016aa4f">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="71f5c7ac-cffd-4ee1-bf65-f395995ffbdc" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_ImprovisedStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6230b9c6-32b0-497b-82ff-104ce6cb6311" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffACommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="81241870-c4a0-47df-ae37-61e0f1333e1e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesShieldUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6230b9c6-32b0-497b-82ff-104ce6cb6311" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesShieldUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="81241870-c4a0-47df-ae37-61e0f1333e1e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesStaffBUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffBUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6230b9c6-32b0-497b-82ff-104ce6cb6311" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="81241870-c4a0-47df-ae37-61e0f1333e1e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_14" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_15" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_16" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6230b9c6-32b0-497b-82ff-104ce6cb6311" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_17" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_18" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="82f66d0f-7dc6-4c11-b14f-be028e916388" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_19" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="81241870-c4a0-47df-ae37-61e0f1333e1e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_20" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Tridents_2H_substat_21" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="612cbc5c-0823-42b3-a71d-c449f96024fe" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5db542f0-ec08-4ae5-b2e0-4ebcec0d8c16" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_ImprovisedStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0907a963-abcc-4a5e-9aa5-928b533d0119" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffACommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f06b494c-4598-486f-bfc6-1425470cd24e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesShieldUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0907a963-abcc-4a5e-9aa5-928b533d0119" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesShieldUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f06b494c-4598-486f-bfc6-1425470cd24e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesStaffBUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffBUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0907a963-abcc-4a5e-9aa5-928b533d0119" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f06b494c-4598-486f-bfc6-1425470cd24e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_14" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_15" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_16" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0907a963-abcc-4a5e-9aa5-928b533d0119" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_17" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_18" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6564faf8-6098-4c47-87b7-182f1dd6e852" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_19" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f06b494c-4598-486f-bfc6-1425470cd24e" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_20" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsStaffBEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_21" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Stormhammer_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

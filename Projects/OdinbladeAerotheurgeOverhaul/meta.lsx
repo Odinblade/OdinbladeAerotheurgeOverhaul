@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" time="1535472845" />
+    <version major="3" minor="6" revision="0" build="4" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="961ae59d-2964-46dd-9762-073697915dc2" type="23" />
+            <attribute id="Name" value="OdinbladeAerotheurgeOverhaul" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="2b53ac0c-d1e8-4f5e-94f9-30d786bc75a0" type="23" />
+        </node>
+    </region>
+</save>

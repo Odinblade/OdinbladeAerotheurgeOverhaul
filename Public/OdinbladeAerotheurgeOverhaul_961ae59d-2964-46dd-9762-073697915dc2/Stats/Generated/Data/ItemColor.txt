@@ -1,0 +1,8 @@
+new itemcolor "OdinAERO_03","FFFFD700","FF202130","FFA9A9A9"
+
+new itemcolor "OdinAERO_01","FF696969","FF6D6087","FFF0F8FF"
+
+new itemcolor "OdinAERO_04","FF696969","FF72668C","FF312438"
+
+new itemcolor "OdinAERO_02","FF3E587F","FF612525","FFC8DCED"
+

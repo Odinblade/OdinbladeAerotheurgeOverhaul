@@ -1,0 +1,188 @@
+new itemgroup "OdinAERO_Stormhammer_2H"
+
+add levelgroup 1,3,"Common"
+add rootgroup "71f5c7ac-cffd-4ee1-bf65-f395995ffbdc",""
+add namegroup "OdinAERO_ImprovisedStormhammer","",""
+
+add levelgroup 4,7,"Common"
+add rootgroup "6230b9c6-32b0-497b-82ff-104ce6cb6311","DwarvesCommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 8,11,"Common"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","HumansStaffACommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 12,15,"Common"
+add rootgroup "81241870-c4a0-47df-ae37-61e0f1333e1e","ElvesShieldUncommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 16,0,"Common"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","DwarvesCommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 1,3,"Uncommon"
+add rootgroup "6230b9c6-32b0-497b-82ff-104ce6cb6311","ElvesShieldUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 4,7,"Uncommon"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","DwarvesUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 8,11,"Uncommon"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","LizardsStaffBUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 12,15,"Uncommon"
+add rootgroup "81241870-c4a0-47df-ae37-61e0f1333e1e","DwarvesUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 16,18,"Uncommon"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","ElvesStaffBUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 19,0,"Uncommon"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","HumansStaffBUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 1,3,"Rare"
+add rootgroup "6230b9c6-32b0-497b-82ff-104ce6cb6311","DwarvesRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 4,7,"Rare"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","LizardsStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 8,11,"Rare"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","DwarvesRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 12,15,"Rare"
+add rootgroup "81241870-c4a0-47df-ae37-61e0f1333e1e","ElvesStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 16,18,"Rare"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","HumansStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 19,0,"Rare"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","LizardsStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 1,3,"Epic"
+add rootgroup "6230b9c6-32b0-497b-82ff-104ce6cb6311","LizardsStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 4,7,"Epic"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","DwarvesEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 8,11,"Epic"
+add rootgroup "82f66d0f-7dc6-4c11-b14f-be028e916388","ElvesStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 12,15,"Epic"
+add rootgroup "81241870-c4a0-47df-ae37-61e0f1333e1e","HumansStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 16,18,"Epic"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","LizardsStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 19,0,"Epic"
+add rootgroup "612cbc5c-0823-42b3-a71d-c449f96024fe","DwarvesEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+new itemgroup "OdinAERO_Stormhammer_1H"
+
+add levelgroup 1,3,"Common"
+add rootgroup "5db542f0-ec08-4ae5-b2e0-4ebcec0d8c16",""
+add namegroup "OdinAERO_ImprovisedStormhammer","",""
+
+add levelgroup 4,7,"Common"
+add rootgroup "0907a963-abcc-4a5e-9aa5-928b533d0119","DwarvesCommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 8,11,"Common"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","HumansStaffACommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 12,15,"Common"
+add rootgroup "f06b494c-4598-486f-bfc6-1425470cd24e","ElvesShieldUncommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 16,0,"Common"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","DwarvesCommon"
+add namegroup "OdinAERO_CommonStormhammer","",""
+
+add levelgroup 1,3,"Uncommon"
+add rootgroup "0907a963-abcc-4a5e-9aa5-928b533d0119","ElvesShieldUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 4,7,"Uncommon"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","DwarvesUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 8,11,"Uncommon"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","LizardsStaffBUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 12,15,"Uncommon"
+add rootgroup "f06b494c-4598-486f-bfc6-1425470cd24e","DwarvesUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 16,18,"Uncommon"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","ElvesStaffBUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 19,0,"Uncommon"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","HumansStaffBUncommon"
+add namegroup "OdinAERO_UncommonStormhammer","",""
+
+add levelgroup 1,3,"Rare"
+add rootgroup "0907a963-abcc-4a5e-9aa5-928b533d0119","DwarvesRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 4,7,"Rare"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","LizardsStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 8,11,"Rare"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","DwarvesRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 12,15,"Rare"
+add rootgroup "f06b494c-4598-486f-bfc6-1425470cd24e","ElvesStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 16,18,"Rare"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","HumansStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 19,0,"Rare"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","LizardsStaffBRare"
+add namegroup "OdinAERO_RareStormhammer","",""
+
+add levelgroup 1,3,"Epic"
+add rootgroup "0907a963-abcc-4a5e-9aa5-928b533d0119","LizardsStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 4,7,"Epic"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","DwarvesEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 8,11,"Epic"
+add rootgroup "6564faf8-6098-4c47-87b7-182f1dd6e852","ElvesStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 12,15,"Epic"
+add rootgroup "f06b494c-4598-486f-bfc6-1425470cd24e","HumansStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 16,18,"Epic"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","LizardsStaffBEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+
+add levelgroup 19,0,"Epic"
+add rootgroup "ea343ff9-e383-4fa5-ab0e-8b12b7b3e2d3","DwarvesEpic"
+add namegroup "OdinAERO_EpicStormhammer","",""
+

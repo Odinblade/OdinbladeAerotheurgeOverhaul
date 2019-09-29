@@ -1,0 +1,144 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "ST_OdinAERO_Trader"
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_LightningBolt",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_BlindingRadiance",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_ShockingTouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_OdinAERO_Thunderbrand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_OdinAERO_TurbulentWind",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_OdinAERO_Overcast",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_FavourableWind",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Air_OdinAERO_Conduit",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Air_DazingBolt",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Air_Teleportation_FreeFall",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Air_EvasiveManeuver",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Air_OdinAERO_VoltAssault",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Air_OdinAERO_Haze",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Air_OdinAERO_ConjureWindElemental",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_Apportation",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_Netherswap",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_PressureSpike",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_OdinAERO_InsulationShield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_OdinAERO_ConductionTherapy",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_ChainLightning",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_OdinAERO_RollingThunder",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_OdinAERO_ThunderVault",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_OdinAERO_RepulsionBlast",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_OdinAERO_Updraft",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_ElectricFence",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Air_Superconductor",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Air_Tornado",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Air_OdinAERO_LightningWarp",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Air_OdinAERO_Aeroblast",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Air_Lightning",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+object category "I_SKILLBOOK_Air_SmokeCover",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_BlessedSmokeCloud",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+object category "I_SKILLBOOK_Air_OdinAERO_VoltSwings",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_OdinAERO_MasterOfVolts",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+object category "I_SKILLBOOK_Air_VacuumTouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_VacuumAura",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+object category "I_SKILLBOOK_Air_Vaporize",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+object category "I_SKILLBOOK_Air_Windwalker",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_EvasiveAura",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+object category "I_SKILLBOOK_Air_BreathingBubble",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Air_MassBreathingBubbles",1,0,0,0,0,0,0,0
+new treasuretable "ST_OdinAEROWeapon"
+new subtable "1,1"
+object category "OdinAERO_Stormhammer",1,1,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "OdinAERO_Stormhammer",1,0,1,0,0,0,0,0
+new subtable "0,1;1,1;2,1"
+StartLevel "9"
+object category "OdinAERO_Stormhammer",1,0,0,1,0,0,0,0
+object category "OdinAERO_Stormhammer",1,0,0,0,1,0,0,0
+new subtable "1,1"
+object category "OdinAERO_Stormhammer_1H",1,1,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "OdinAERO_Stormhammer_1H",1,0,1,0,0,0,0,0
+new subtable "0,1;1,1;2,1"
+StartLevel "9"
+object category "OdinAERO_Stormhammer_1H",1,0,0,1,0,0,0,0
+object category "OdinAERO_Stormhammer_1H",1,0,0,0,1,0,0,0

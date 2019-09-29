@@ -1,0 +1,173 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION //BUFFER CONDUCTIVE DAMAGE, PREVENTS CRASHY-CRASHY
+IF
+CharacterStatusApplied(_Character, "OdinAERO_PROC_CONDUCTIVE_DAMAGE", _Source)
+THEN
+DB_OdinAERO_StoreTarget(_Character);
+TimerLaunch("OdinAERO_TIMER_CONDUCTIVE_DAMAGE", 175);
+
+IF
+TimerFinished("OdinAERO_TIMER_CONDUCTIVE_DAMAGE")
+AND
+DB_OdinAERO_StoreTarget(_Character)
+THEN
+RemoveStatus(_Character, "OdinAERO_PROC_CONDUCTIVE_DAMAGE");
+NOT DB_OdinAERO_StoreTarget(_Character);
+//END_REGION
+
+//REGION
+IF
+CharacterStatusApplied(_Character, "OdinAERO_PROC_CONDUCTIVE_LOW_DAMAGE", _Source)
+THEN
+DB_OdinAERO_StoreTarget(_Character);
+TimerLaunch("OdinAERO_TIMER_CONDUCTIVE_LOW_DAMAGE", 175);
+
+IF
+TimerFinished("OdinAERO_TIMER_CONDUCTIVE_LOW_DAMAGE")
+AND
+DB_OdinAERO_StoreTarget(_Character)
+THEN
+RemoveStatus(_Character, "OdinAERO_PROC_CONDUCTIVE_LOW_DAMAGE");
+NOT DB_OdinAERO_StoreTarget(_Character);
+//END_REGION
+
+//REGION 
+IF
+CharacterStatusApplied(_Character, "OdinAERO_PROC_CONDUCTIVE_DAZE_DAMAGE", _Source)
+THEN
+DB_OdinAERO_StoreTarget(_Character);
+TimerLaunch("OdinAERO_TIMER_CONDUCTIVE_DAZE_DAMAGE", 175);
+
+IF
+TimerFinished("OdinAERO_TIMER_CONDUCTIVE_DAZE_DAMAGE")
+AND
+DB_OdinAERO_StoreTarget(_Character)
+THEN
+RemoveStatus(_Character, "OdinAERO_PROC_CONDUCTIVE_DAZE_DAMAGE");
+NOT DB_OdinAERO_StoreTarget(_Character);
+//END_REGION
+
+//REGION OBAERO_GRAVIPORTATION
+IF
+CharacterUsedSkillAtPosition(_Character, _X, _Y, _Z, "Target_Apportation", _, _)
+THEN
+DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z);
+TimerLaunch("OBAERO_Apportation_Timer", 1250);
+
+IF
+TimerFinished("OBAERO_Apportation_Timer")
+AND
+DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z)
+THEN
+CharacterUseSkillAtPosition(_Character, "Target_OdinAERO_Graviportation_Items", _X, _Y, _Z, 1, 1);
+NOT DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z);
+//END_REGION
+
+//REGION OBAERO_Thunderbrand_OnHit
+IF
+    CharacterStatusAttempt(_Defender, "OdinAERO_THUNDERBRAND_PROC", (CHARACTERGUID)_Attacker)
+AND
+    HasActiveStatus(_Attacker, "OdinAERO_THUNDERBRAND", 1)
+AND
+    HasActiveStatus(_Defender, "SHOCKED", 0)
+AND
+    NOT DB_OdinAERO_Thunderbrand(_Attacker, _Defender)
+THEN
+    DB_OdinAERO_Thunderbrand(_Attacker, _Defender);
+    ApplyStatus(_Defender, "SHOCKED", 6.0, 0, _Attacker);
+    ProcObjectTimer(_Defender, "Clear_DB_OdinAERO_Thunderbrand", 100);
+
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinAERO_Thunderbrand")
+AND
+    DB_OdinAERO_Thunderbrand(_Attacker, _Defender)
+THEN
+    NOT DB_OdinAERO_Thunderbrand(_Attacker, _Defender);
+//END_REGION
+
+//REGION OBHAERO_Thunderbrand_DeltaModifier
+IF
+    CharacterStatusApplied(_Char, "OdinAERO_THUNDERBRAND", _)
+AND
+    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+AND
+    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinAERO_Thunderbrand")
+THEN
+    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinAERO_Thunderbrand");
+ //END_REGION
+
+//REGION OBAERO_Induce_Enemy_Conduit
+//USE CONDUIT IF A PLAYER IS NEARBY
+IF
+ObjectTurnStarted(_Caster)
+AND
+CharacterHasSkill((CHARACTERGUID)_Caster, "Target_OdinAERO_Enemy_Conduit", 1)
+AND
+GetClosestAlivePlayer(_Caster, _Target, _Distance)
+AND
+HasActiveStatus(_Target, "OdinAERO_CONDUCTIVE", 0)
+AND
+CharacterIsEnemy(_Target, _Caster, 1)
+AND
+_Distance <= 11.0
+THEN
+OB_AERO_CONDUIT_SKILL_ATTEMPT(_Caster, _Target);
+
+//CAST CONDUIT IF HAS LIGHTNING BOLT
+//Hacky but it'll do!
+PROC
+OB_AERO_CONDUIT_SKILL_ATTEMPT((CHARACTERGUID)_Caster, (CHARACTERGUID)_Target)
+AND
+IsSkillActive(_Caster, "Target_OdinAERO_Enemy_Conduit", 1)
+AND
+IsSkillActive(_Caster, "Projectile_EnemyLightningBolt", 1)
+THEN
+CharacterUseSkill(_Caster, "Target_OdinAERO_Enemy_Conduit", _Target, 0, 0, 0);
+
+//CAST CONDUIT IF HAS SHOCKING TOUCH
+PROC
+OB_AERO_CONDUIT_SKILL_ATTEMPT((CHARACTERGUID)_Caster, (CHARACTERGUID)_Target)
+AND
+IsSkillActive(_Caster, "Target_OdinAERO_Enemy_Conduit", 1)
+AND
+IsSkillActive(_Caster, "Target_EnemyShockingTouch", 1)
+THEN
+CharacterUseSkill(_Caster, "Target_OdinAERO_Enemy_Conduit", _Target, 0, 0, 0);
+
+//UP CHARACTER PRIORITY W/ CONDUCTIVE
+IF
+CharacterStatusApplied(_Character, "OdinAERO_CONDUCTIVE", _Causee)
+AND
+CharacterIsEnemy(_Character, (CHARACTERGUID)_Causee, 1)
+THEN
+CharacterAddPreferredAiTargetTag(_Character, "AI_PREFERRED_TARGET");
+
+IF
+CharacterStatusRemoved(_Character, "OdinAERO_CONDUCTIVE", _Causee)
+THEN
+CharacterRemovePreferredAiTargetTag(_Character, "AI_PREFERRED_TARGET");
+//END_REGION
+
+// IF
+// CharacterUsedSkillOnTarget(_Caster, _Target, "OdinAERO_Conductive_Damage", "projectile", _)
+// AND
+// HasActiveStatus(_Target, "OdinAERO_IGNORE_CONDUIT", 0)
+// THEN
+// ApplyStatus(_Target, "OdinAERO_PROC_CONDUCTIVE_ZAP", 0.0, 1, _Caster);
+
+// IF
+// CharacterStatusApplied(_Target, "OdinAERO_IGNORE_CONDUIT", _Caster)
+// THEN
+// ProcObjectTimer(_Target, "OdinAERO_CONDUIT_DMG_IMMUNE", 300);
+
+// PROC
+// ProcObjectTimerFinished(_Target, "OdinAERO_CONDUIT_DMG_IMMUNE")
+// THEN
+// RemoveStatus(_Target, "OdinAERO_IGNORE_CONDUIT");
+EXITSECTION
+
+ENDEXITSECTION

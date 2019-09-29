@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="48e63fff-81e0-42bb-ac51-39f5904b97be">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_BreathingBubble" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="48;38;8;3;46;52" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_FavourableWind" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" value="statIcons_ImprovedInitiative" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="46" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_FavourableWind_Aura" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AuraRadius" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="AuraAllies" type="StringStatObjectFieldDefinition" value="FAVOURABLE_WIND" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" value="statIcons_ImprovedInitiative" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="46" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Suffocating" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" value="statIcons_Suffocating" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="-10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_OdinAERO_Conductive" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="-15" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

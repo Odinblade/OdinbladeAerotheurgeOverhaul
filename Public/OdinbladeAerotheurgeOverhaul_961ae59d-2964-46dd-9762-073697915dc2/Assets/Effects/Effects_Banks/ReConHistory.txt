@@ -1,0 +1,30 @@
+addSkill Storm_OdinPyro_Ragnarok 
+magemana 100
+addSkill Shout_FireBrand 
+peace
+maxout
+nocooldowns
+addSkill Shout_OdinAERO_Thunderbrand 
+addSkill Shout_Whirlwind 
+peace
+maxout
+nocooldowns
+addSkill Shout_OdinWater_Frostblade 
+addSkill Shout_OdinWater_HarshCurrent 
+addSkill Shout_OdinWater_Frostblade 
+levelup 10
+peace
+peace
+peace
+maxout
+nocooldowns
+addSkill Storm_OdinPyro_Ragnarok 
+magemana 100
+addSkill Shout_FireBrand 
+addSkill Shout_VenomCoating 
+addSkill Shout_OdinGEO_Shapeshift_ClaySentinel 
+addSkill Target_OdinGEO_ParasiticAffliction 
+addSkill Target_OdinGEO_GranitePlating 
+addSkill Projectile_OdinGEO_VenomBurst 
+addSkill Projectile_PoisonDartStart 
+[HistoryLimit]29

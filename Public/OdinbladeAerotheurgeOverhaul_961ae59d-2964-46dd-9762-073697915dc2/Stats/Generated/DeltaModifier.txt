@@ -1,0 +1,7 @@
+new deltamod "Boost_Weapon_OdinAERO_Thunderbrand"
+param "BoostType" "BaseUncommon"
+param "MinLevel" "1"
+param "Frequency" "1"
+param "ModifierType" "Weapon"
+new boost "_Boost_OdinAERO_Thunderbrand",1
+

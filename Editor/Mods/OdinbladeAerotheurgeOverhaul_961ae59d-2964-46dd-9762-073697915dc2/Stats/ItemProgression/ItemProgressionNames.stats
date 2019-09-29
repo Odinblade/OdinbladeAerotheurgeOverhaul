@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a46ee13b-92c9-474f-9b83-2561b63cf414">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_ImprovisedStormhammer" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Improvised Stormhammer" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Thunderlord's trusty weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_UncommonStormhammer" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Bold Stormhammer" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Thunderlord's trusty weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_CommonStormhammer" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Sturdy Stormhammer" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Thunderlord's trusty weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_RareStormhammer" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Righteous Stormhammer" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Thunderlord's trusty weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_EpicStormhammer" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Crackling Stormhammer" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Thunderlord's trusty weapon." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

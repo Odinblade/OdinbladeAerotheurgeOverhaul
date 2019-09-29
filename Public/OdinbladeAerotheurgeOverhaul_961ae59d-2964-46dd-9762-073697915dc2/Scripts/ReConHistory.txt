@@ -1,0 +1,6 @@
+peace
+nocooldowns
+addPlayerCharacter Elves_Hero_Female_7ef846f5-34dc-450c-815e-a58dfc190a7b 
+addSkill Projectile_LightningBolt 
+maxout
+[HistoryLimit]30

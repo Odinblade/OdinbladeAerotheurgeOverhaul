@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="81d21913-ef1d-4fd8-bc01-1dcee5d3e4eb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_ConjureWindElemental" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SummonLevel" type="IntegerStatObjectFieldDefinition" value="-1" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="d5eb01e8-6c91-44d7-8675-15ca1bb9af76" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="SummonCount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBAERO_Skill_ConjureWindElemental" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Conjure Wind Elemental" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Air_Prepare_Air_Root_02;RS3_FX_Skills_Air_SigilDecal_01;" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_shout_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Air_Wind_Shout_01:root" />
+        <field name="CastEffectTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="TargetCastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Air_Impact_PressureSpike_01" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_UI_TargetPreview_Air_01l" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1; Summoning 1" />
+        <field name="TemplateAdvanced" type="StringStatObjectFieldDefinition" value="69995194-1357-42ea-98e1-3acc36b4bf45" />
+        <field name="TemplateOverride" type="StringStatObjectFieldDefinition" value="69995194-1357-42ea-98e1-3acc36b4bf45" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Fabricate a &lt;font color='#7d71d9'&gt;Wind Elemental&lt;/font&gt; at target location. The &lt;font color=&quot;#7d71d9&quot;&gt;Elemental&lt;/font&gt; lasts 5 turns and is a ranged caster. &lt;br&gt;&lt;br&gt;At &lt;font color=&quot;#7f25d4&quot;&gt;10 Summoning&lt;/font&gt;, the &lt;font color=&quot;#7d71d9&quot;&gt;Elemental&lt;/font&gt; increases in size and gains additional stats." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

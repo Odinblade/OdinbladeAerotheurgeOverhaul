@@ -1,0 +1,6 @@
+maxout
+addSkill Summon_OdinAERO_ConjureWindElemental
+epace
+peace
+nocooldowns
+[HistoryLimit]30

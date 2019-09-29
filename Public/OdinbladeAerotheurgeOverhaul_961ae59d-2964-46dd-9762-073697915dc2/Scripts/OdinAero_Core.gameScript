@@ -1,0 +1,79 @@
+INIT
+
+EVENTS
+//STATUS -> FAVOURABLE_WINDS
+EVENT OdinAero_Status_FavourableWind
+VARS
+CHARACTER:_Character
+
+ON
+	OnCharacterStatusApplied(_Character, FAVOURABLE_WIND)
+	OnCharacterStatusApplied(_Character, FAVOURABLE_WIND_AURA)
+ACTIONS
+	CharacterRemoveStatus(_Character, PETRIFIED)
+	CharacterRemoveStatus(_Character, STUNNED)
+	CharacterRemoveStatus(_Character, SLOWED)
+
+//-------------------------------------------------------------------------------------
+//SKILL -> NIMBUS_VEIL
+EVENT OdinAero_Skill_NimbusVeil
+VARS
+CHARACTER:_Character
+FLOAT3:_Pos
+
+ON
+	OnCharacterStatusApplied(_Character, OdinAERO_PROC_NIMBUSVEIL)
+	OnSkillCast(_Character, Shout_OdinAERO_NimbusVeil)
+ACTIONS
+	CharacterRemoveStatus(_Character, MUTED)
+	CharacterApplyStatus(_Character, INVISIBLE, 1, 1)
+	GetPosition(_Character, _Pos)
+	CreateSurfaceAt(_Character, SurfaceSmokeCloudBlessed, 1, 1, _Character)
+	
+//SKILL -> BREATHING_BUBBLE
+EVENT OdinAero_Skill_BreathingBubble
+VARS
+CHARACTER:_Character
+FLOAT3:_Pos
+
+ON
+	OnCharacterStatusApplied(_Character, OdinAERO_PROC_THUNDERINGBELLOW)
+	OnSkillCast(_Character, Shout_BreathingBubble)
+	OnSkillCast(_Character, Shout_MassBreathingBubbles)
+ACTIONS
+	GetPosition(_Character, _Pos)
+	CreateSurfaceAt(_Character, SurfaceWaterCloudElectrified, 2, 2, _Character)
+
+//SKILL -> CONDUCTION_THERAPY
+EVENT OdinAero_Skill_ConductionTherapy
+VARS
+CHARACTER:_Character
+CHARACTER:_Source
+
+ON
+	OnCharacterStatusApplied(_Character, OdinAERO_PROC_CONDUCTIONTHERAPY)
+ACTIONS
+IF "(c1|c2)&c3"
+	CharacterHasStatus(_Character, SHOCKED)
+	CharacterHasStatus(_Character, STUNNED)
+	CharacterGetStatusSourceCharacter(_Character, OdinAERO_PROC_CONDUCTIONTHERAPY, _Source)
+THEN
+	CharacterRemoveStatus(_Character, SHOCKED)
+	CharacterRemoveStatus(_Character, STUNNED)
+	CharacterApplyStatus(_Character, OdinAERO_CONDUCTIVE, 2, 1, _Source)
+ENDIF
+
+//SKILL -> VOLT_ASSAULT
+EVENT OdinAero_Skill_VoltAssault
+VARS
+CHARACTER:_Character
+CHARACTER:_Source
+
+ON
+	OnCharacterStatusApplied(_Character, OdinAERO_PROC_VOLTASSAULT)
+ACTIONS
+IF "c1"
+	CharacterHasStatus(_Character, OdinAERO_CONDUCTIVE)
+THEN
+	CreateSurfaceAt(_Character, SurfaceWaterCloudElectrified, 1, 1, _Character)
+ENDIF

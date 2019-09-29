@@ -1,0 +1,16 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_OBCORE_EnemySkill_Pair("","");
+//DB_OBCORE_EnemySkill_Pair("Projectile_EnemyLightningBolt", "Target_OdinAERO_Enemy_Conduit");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemySuperconductor","Jump_OdinAERO_Enemy_LightningWarp");
+DB_OBCORE_EnemySkill_Pair("ProjectileStrike_EnemyDazingBolt","Target_OdinAERO_Enemy_Overcast");
+DB_OBCORE_EnemySkill_Pair("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield");
+//DB_OBCORE_EnemySkill_Pair("Target_EnemyShockingTouch", "Target_OdinAERO_Enemy_Conduit");
+DB_OBCORE_EnemySkill_Pair("Tornado_EnemyAir","Cone_OdinAERO_Enemy_TurbulantWind");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft");
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION

@@ -1,0 +1,6 @@
+new entry "OdinAERO_THUNDERBRAND_PROC"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+

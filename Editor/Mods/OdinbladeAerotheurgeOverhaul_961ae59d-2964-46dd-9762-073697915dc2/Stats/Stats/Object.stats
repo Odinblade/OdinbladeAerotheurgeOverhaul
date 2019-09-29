@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_BreathingBubble" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="83cfc525-f810-4dff-9f2b-6d6a381fef2b" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1; WaterSpecialist 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_MassBreathingBubbles" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5817cd39-a40f-4bb7-89d5-9f6445cbeb71" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="13" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 2; WaterSpecialist 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_VoltSwings" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="8d431a18-3966-41eb-a881-dca1be527b59" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1; WarriorLore 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_MasterOfVolts" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5a08a341-c139-4457-bc3f-80a2072f6966" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="13" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 2; WarriorLore 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_Thunderbrand" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="69dda0ac-bd67-4ad4-909b-b2e5621e1167" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_TurbulentWind" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="aedede93-d069-4074-96fd-d97a255ef472" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_Overcast" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="680b08af-1251-401f-8db9-d5376bd08dd9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_Conduit" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="c9cc063e-732d-41a0-93ec-eaa2d553be6d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_VoltAssault" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3a9c8365-1590-4fbf-a94f-ce18ae62ff7d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_Haze" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0ceb918a-e2db-4332-a4a7-bdadede6a160" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_ConjureWindElemental" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 1;Summoning 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="b1c35807-e2c5-4cbf-bcf5-5405a80c106f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_InsulationShield" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="68239353-abcd-41cb-8c98-c87f66dad673" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_ConductionTherapy" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="150034d0-7d3d-48ae-8b4c-d4b72fde939c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_RollingThunder" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4d1da983-1d61-4b4c-ad2d-eec26a1ee62f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_ThunderVault" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="909b4b0e-ff4f-441f-87c8-b74a3874c592" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_RepulsionBlast" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="2b9ad4de-40d6-4005-a531-a24bc1f65cdb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_Updraft" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="fe673fd8-bc5c-40dd-9b8b-7bfce6a4f4b4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_LightningWarp" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="9c845a08-da66-432b-8d19-a8f52243caee" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_OdinAERO_Aeroblast" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="63862ee8-2b3a-4802-a2e4-5b973e51c87c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_Superconductor" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="b063ae17-3705-431c-8269-49c1df4618bd" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_Netherswap" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="34634252-35fc-44ea-9c1d-4a21302b0f30" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_PressureSpike" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="67372ab5-674b-4ee8-bd03-e2f960f79f9a" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_Apportation" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="bb4242cd-2866-4279-849d-fbaceb3c7746" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_Tornado" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="e0d4e3f4-141e-4675-b323-9f5233c5911f" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAir" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Air_ElectricFence" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="c7538f38-c2a9-457b-aadb-7a9abd81db7e" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="13" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="750" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirSource" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="AirSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookAirLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

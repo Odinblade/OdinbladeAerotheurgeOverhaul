@@ -1,0 +1,15 @@
+new namegroup "OdinAERO_ImprovisedStormhammer"
+add name "Improvised Stormhammer","A Thunderlord's trusty weapon."
+
+new namegroup "OdinAERO_UncommonStormhammer"
+add name "Bold Stormhammer","A Thunderlord's trusty weapon."
+
+new namegroup "OdinAERO_CommonStormhammer"
+add name "Sturdy Stormhammer","A Thunderlord's trusty weapon."
+
+new namegroup "OdinAERO_RareStormhammer"
+add name "Righteous Stormhammer","A Thunderlord's trusty weapon."
+
+new namegroup "OdinAERO_EpicStormhammer"
+add name "Crackling Stormhammer","A Thunderlord's trusty weapon."
+

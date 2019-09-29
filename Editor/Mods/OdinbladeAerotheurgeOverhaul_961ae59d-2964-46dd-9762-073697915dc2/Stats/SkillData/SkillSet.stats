@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_WindElemental" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_OdinAERO_Summon_LightningBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_IceElemental_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinAERO_Summon_Vaporize" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_WindElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_IceElemental_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinAERO_Summon_Haze" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_WindElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Class_Tempest" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rain_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_LightningBolt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Tempest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinAERO_Overcast" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Tempest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Class_Electromancer" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_LightningBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ShockingTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Electromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinAERO_Conduit" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Electromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Class_Thunderlord" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinAERO_Thunderbrand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ShockingTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Thunderlord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Thunderlord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Class_Windweaver" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_OdinAERO_TurbulantWind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FavourableWind" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Windweaver" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BlindingRadiance" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinAERO_Class_Windweaver" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
