@@ -3,6 +3,155 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Thunderbrand" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_0" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_TurbulentWind" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Overcast" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_2" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Conduit" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_3" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_VoltAssault" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_4" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Haze" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_5" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_ConjureWindElemental" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_6" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_InsulationShield" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_12" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_LightningWarp" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_7" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_ConductionTherapy" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_8" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_RollingThunder" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_9" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_ThunderVault" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_10" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_RepulsionBlast" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_11" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Updraft" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills_substat_13" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Aeroblast" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_NewSkills" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
@@ -32,50 +181,10 @@
     </stat_object>
     <stat_object is_substat="true">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_1" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Thunderbrand" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_2" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_TurbulentWind" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_3" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Overcast" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_4" />
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_FavourableWind" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_5" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Conduit" />
         <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
       </fields>
@@ -112,36 +221,6 @@
     </stat_object>
     <stat_object is_substat="true">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_9" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_VoltAssault" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_10" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Haze" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_11" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_ConjureWindElemental" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_12" />
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
@@ -172,70 +251,10 @@
     </stat_object>
     <stat_object is_substat="true">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_15" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_InsulationShield" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_16" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_ConductionTherapy" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_17" />
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_ChainLightning" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_18" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_RollingThunder" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_19" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_ThunderVault" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_20" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_RepulsionBlast" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_21" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Updraft" />
         <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
       </fields>
@@ -266,26 +285,6 @@
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_Tornado" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_25" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_LightningWarp" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAERO_Trader_substat_26" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Air_OdinAERO_Aeroblast" />
         <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
       </fields>
@@ -410,6 +409,16 @@
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
       </fields>
     </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="T_ST_OdinAERO_NewSkills" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAERO_Trader" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinAEROWeapon" />
@@ -503,6 +512,46 @@
         <field name="Epic" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinAEROWeapon" />
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_AirTrainer" />
+        <field name="CanMerge" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="T_ST_OdinAERO_NewSkills" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_AirTrainer_substat" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="T_ST_OdinAEROWeapon" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_AirTrainer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_Skillbook_AirTrainer" />
+        <field name="CanMerge" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="T_ST_OdinAERO_NewSkills" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_Skillbook_AirTrainer_substat_0" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="T_ST_OdinAEROWeapon" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_Skillbook_AirTrainer" />
       </fields>
     </stat_object>
   </stat_objects>
