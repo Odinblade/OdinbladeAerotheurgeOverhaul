@@ -36,5 +36,5 @@ data "Memory Cost" "1"
 data "Magic Cost" "0"
 data "CleanseStatuses" "INVISIBLE;BURNING;POISONED;SLOWED"
 data "StatusClearChance" "100"
-data "CycleConditions" "Character;!Dead"
+data "CycleConditions" "Enemy;!Dead"
 
