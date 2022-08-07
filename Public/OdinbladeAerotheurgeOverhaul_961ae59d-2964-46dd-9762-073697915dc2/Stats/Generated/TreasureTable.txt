@@ -86,7 +86,7 @@ new subtable "1,1"
 StartLevel "16"
 object category "I_SKILLBOOK_Air_Superconductor",1,0,0,0,0,0,0,0
 new subtable "1,1"
-StartLevel "9"
+StartLevel "16"
 object category "I_SKILLBOOK_Air_Tornado",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "16"

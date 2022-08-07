@@ -115,12 +115,3 @@ type "Weapon"
 using "_BOOSTS_Weapon"
 data "ExtraProperties" "OdinAERO_THUNDERBRAND_PROC,100,0"
 
-new entry "Damage_OdinAERO_Thunderbrand_Crackle"
-type "Weapon"
-data "ModifierType" "Item"
-data "Damage Type" "Air"
-data "Damage" "1"
-data "Damage Range" "5"
-data "DamageFromBase" "35"
-data "Charges" "0"
-

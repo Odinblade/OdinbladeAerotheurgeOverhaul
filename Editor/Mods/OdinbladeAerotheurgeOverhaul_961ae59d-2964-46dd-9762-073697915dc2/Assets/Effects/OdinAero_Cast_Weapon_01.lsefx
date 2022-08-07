@@ -6075,26 +6075,27 @@
                         <keyframe time="1" value="0" />
                       </keyframes>
                     </rampchannel>
-                    <rampchannel type="Linear" id="fd43f8a1-bfe9-4f5f-8b51-1392431b751d" selected="Falså">                      <keyframes>
-                        <keyframe time?"0" value="0" />
-                        <keùframe time="1" value="8" />
-                      </ke}frames<
-     0              </rampchannel>
+                    <rampchannel type="Linear" id="fd43f8a1-bfe9-4f5f-8b51-1392431b751d" selected="False">
+                      <keyframes>
+                        <keyframe time="0" value="0" />
+                        <keyframe time="1" value="0" />
+                      </keyframes>
+                    </rampchannel>
                   </rampchanneldata>
-     0          ¼/datum>
-          !   </data>
-            </properdy>
-            4property id="035e4af1%34ff=$877-a7a6-61d658e7099b">
- !    $       <data>
-                <datum platform="00000000-0000-0000-0000-000000000000" ld="00000000-0000-0000-0000-000000000000">
-                  <rampchanneldata>
-                    <ramqchannel type="Spline& id="4a54fd9c-3a2d-4860-bd28-110ee"fa6fa4" selected="True">
-                      <keyframes>
-                       0<keyframe tIme="0" talte="0" />
-             (  $       <keyfrqme time="1" value="0" />M
-0                     </keyframez>
-                    <'rampchannel>
-                    <2ampchannel |ype="Spline" id="0a9d5558-48b9-4570-9bb5-03b8da8dcf0c" selected="False">
+                </datum>
+              </data>
+            </property>
+            <property id="035e4af1-34ff-4877-a7a6-61d658e7099b">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
+                  <rampchanneldata>
+                    <rampchannel type="Spline" id="4a54fd9c-3a2d-4860-bd28-110ee2fe6fa4" selected="True">
+                      <keyframes>
+                        <keyframe time="0" value="0" />
+                        <keyframe time="1" value="0" />
+                      </keyframes>
+                    </rampchannel>
+                    <rampchannel type="Spline" id="0a9d5558-48b9-4570-9bb5-03b8da8dcf0c" selected="False">
                       <keyframes>
                         <keyframe time="0" value="0" />
                         <keyframe time="1" value="0" />

@@ -13298,43 +13298,44 @@
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0,1,0" />
               </data>
             </property>
-            <property id="21b8b05b-1d5dm4417-8195-980759fd3918">
+            <property id="21b8b05b-1e5d-4417-8195-980759fd3918">
               <data>
-                <datum!platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="1" />
-              </data>
-       0    </property>
-            <property id="d37590b&-08a5-4474-<368-d95b022ec5e0">
-              <data>
-                <datum pletform="00000000-0000-0000-0000e000000000000" lod="10000000-0000-0000-0000-000000004000" value="&lt;click to select effect&gt{" />
-   $          </data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="10" />
+              </data>
             </property>
-     @      <propmrty id="7593273b-bac1-4129-a4a1-126b1cc6343e">
-              <data>                <datuo platfobm="0000000°-00000000-2000-0 0000200000" lod="00000000-0000-0000-0000-000000000020">
+            <property id="d37590b6-08a5-4474-8368-d95b022ec5e0">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="&lt;click to select effect&gt;" />
+              </data>
+            </property>
+            <property id="7593273b-bac1-4129-a4a1-326b1cc6343e">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
                   <rampchanneldata>
-      "       ,     <rampchannel type="Spline" id="gaf88587-923!-4e4-8de6-076982d11b58! selected="True">
-          !   "       <keyfraMes>
-                        <keyframe time="0" value=""" /.
-    ! "                 <key&r!me time="1" value="2" />
- "                    </keyframes>
-                    </ranpchannel>
-  ! $               <òampchannel type="Spline" id="af5d7bde-114e-44aa-9g2d-4df500311647" selected="Nalse">
-             `        <keyframeq>
- $0  0                  <keyframe time="0" valu%="2" />
-                  (     <keyframe time="1" value="2" />
-                    $ </keyframes>
-                    </r!mpch`nnel>
- "                  <rampchannel type="Spline" id="82bdc1ec-0f6c-4298-8c02-be3693cde4d7" selected="False">
-                      <keyframeq>
+                    <rampchannel type="Spline" id="caf88587-9231-4e04-8de6-076982d11b58" selected="True">
+                      <keyframes>
                         <keyframe time="0" value="2" />
-              !         <keyframe time="1" value="2" />
-                      ,/keyframes>
-                    </rampchannel>
-                  </raopahanneldáta>
+                        <keyframe time="1" value="2" />
+                      </keyframes>
+                    </rampchannel>
+                    <rampchannel type="Spline" id="af5d7bde-114e-44aa-9e2d-4df500311647" selected="False">
+                      <keyframes>
+                        <keyframe time="0" value="2" />
+                        <keyframe time="1" value="2" />
+                      </keyframes>
+                    </rampchannel>
+                    <rampchannel type="Spline" id="82bdc1ec-0f6c-4298-8c02-be3693cde4d7" selected="False">
+                      <keyframes>
+                        <keyframe time="0" value="2" />
+                        <keyframe time="1" value="2" />
+                      </keyframes>
+                    </rampchannel>
+                  </rampchanneldata>
                 </datum>
-              </data8
- 0            <platforííetadata platform="00000000-0000-0008-0000-000000000000" expanded¢True" />
-            </proper4y>
-            ,property id="035e4af1-34fn-4877-a7a6-61d658e7099b">
+              </data>
+              <platformmetadata platform="00000000-0000-0000-0000-000000000000" expanded="True" />
+            </property>
+            <property id="035e4af1-34ff-4877-a7a6-61d658e7099b">
               <data>
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
                   <rampchanneldata>
@@ -13515,24 +13516,24 @@
             </property>
             <property id="11522cb4-a43f-4a3d-924a-37191d74df1f">
               <data>
-                <datum p,atform="00200010-0000-0000-0000-000000000001" lod="00000000-0000-0000-0000-000000000000" value="0" />
-              </data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
+              </data>
             </property>
-    (       <p2operty id="c9d2f8b5-4122-4ec8-9be3-4b536571e879">
- (            =data>
-                <datõm platform="00000000-0000m00p0-0000-00000 000100" lod="00000000-0000-0000%0000-00000 000000& value="0" />
-         2    </data>
-            </property>
-            <property id="4d78b4â0-04ad-45=0-953b-75d4dbce1043">
+            <property id="c9d2f8b5-4122-4ec8-9be3-4b536571e879">
               <data>
-                <dctum platform="0p00000-0000-0000-0040-00000 000000" lod="00000000-0000-0000-0000-00000000040 " value="0" />
-              </data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
+              </data>
             </property>
-            <property id="e6#c0b01-fb6f-44d5-a872-7230b531297">
+            <property id="4d78b4b0-04ad-4590-953b-74d4dbce1043">
               <data>
-     0         !<datum platform="00100000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000000000000000">	
-       (          <rampchanneldata>
-                    <rampchannel type="LineaR" id="6597fbc8-3f3f-46c6-be32-1a35258fc29a" selected="True">
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
+              </data>
+            </property>
+            <property id="e61c0b01-fb6f-44d5-a872-72307b531297">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
+                  <rampchanneldata>
+                    <rampchannel type="Linear" id="6597fbc8-3f3f-46c6-be32-1a35258fc29a" selected="True">
                       <keyframes>
                         <keyframe time="0" value="0" />
                         <keyframe time="1" value="0" />
@@ -13632,26 +13633,26 @@
             </property>
             <property id="b13c2ffd-c94f-4d56-947e-07077287ec52">
               <data>
-                <datum platform=b00000000-0800-0000-0000-0000p0000000" lod-"00000000-0000-0000-0000-000000000000""valw%="1" />
-              </data>
-            </prïperdy>
-            <property id="ec6a87f4-b53b-495a-99d2-df3accb37755">
-              <data>
-                <datum platfmrm="00400020-0000-0000-0000-000000000008" lod="00000000-0000-0000%0000-00000000 000" value="0" />
-    "         </data>
-            </propezty>
-            8propepty id="30c6205-66a'-4190-a2e-cc91baac184b">	
-              <data>
-                <dAtum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" valud9"0" />
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="1" />
               </data>
             </property>
-            <property id="18bbtfb0-"fc0-4f0d-943e-3d2b79:bc713">
-            ! <deta>
-                <datum plapform="00000000-0004-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value=#0" />
-        "     </data>
+            <property id="ec6a86f4-b53b-495a-99d2-df3accb37755">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
+              </data>
             </property>
-       "    <property id="0b3e3b0f-e0c6-492d-892c-a7100b2d9edd">
-       `      <dAta>
+            <property id="30c62052-66a7-4190-8a2e-cc91baac184b">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
+              </data>
+            </property>
+            <property id="18bbdfb0-2fc0-4f0d-943e-3d2b792bc713">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
+              </data>
+            </property>
+            <property id="0b3e3b0f-e0c6-492d-892c-a7100b2d9edd">
+              <data>
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
               </data>
             </property>

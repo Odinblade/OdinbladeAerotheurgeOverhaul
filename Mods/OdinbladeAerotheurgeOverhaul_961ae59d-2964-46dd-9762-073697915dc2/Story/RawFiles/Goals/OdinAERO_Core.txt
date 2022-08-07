@@ -59,14 +59,6 @@ DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z);
 TimerLaunch("OBAERO_Apportation_Timer", 1250);
 
 IF
-CharacterUsedSkillOnTarget(_Character, _Target, "Target_Apportation", _, _)
-AND
-GetPosition(_Target, _X, _Y, _Z)
-THEN
-DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z);
-TimerLaunch("OBAERO_Apportation_Timer", 1250);
-
-IF
 TimerFinished("OBAERO_Apportation_Timer")
 AND
 DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z)
@@ -77,34 +69,35 @@ NOT DB_OBAERO_Apportation_Skill(_Character, _X, _Y, _Z);
 
 //REGION OBAERO_Thunderbrand_OnHit
 IF
-CharacterStatusAttempt(_Defender, "OdinAERO_THUNDERBRAND_PROC", (CHARACTERGUID)_Attacker)
+    CharacterStatusAttempt(_Defender, "OdinAERO_THUNDERBRAND_PROC", (CHARACTERGUID)_Attacker)
 AND
-HasActiveStatus(_Attacker, "OdinAERO_THUNDERBRAND", 1)
+    HasActiveStatus(_Attacker, "OdinAERO_THUNDERBRAND", 1)
 AND
-Random(100, _Roll)
+    HasActiveStatus(_Defender, "SHOCKED", 0)
 AND
-_Roll <= 25
+    NOT DB_OdinAERO_Thunderbrand(_Attacker, _Defender)
 THEN
-PlayEffect(_Defender, "RS3_FX_GP_Impacts_Stormbolt_Lightning_01");
-ApplyStatus(_Defender, "OdinAERO_PROC_THUNDERBRAND_CRACKLE", 0.0, 0, _Attacker);
+    DB_OdinAERO_Thunderbrand(_Attacker, _Defender);
+    ApplyStatus(_Defender, "SHOCKED", 6.0, 0, _Attacker);
+    ProcObjectTimer(_Defender, "Clear_DB_OdinAERO_Thunderbrand", 100);
 
-IF
-CharacterStatusApplied(_Character, "OdinAERO_PROC_THUNDERBRAND_CRACKLE", _Causee)
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinAERO_Thunderbrand")
 AND
-HasActiveStatus(_Character, "SHOCKED", 0)
+    DB_OdinAERO_Thunderbrand(_Attacker, _Defender)
 THEN
-ApplyStatus(_Character, "SHOCKED", 6.0, 0, _Causee);
+    NOT DB_OdinAERO_Thunderbrand(_Attacker, _Defender);
 //END_REGION
 
 //REGION OBHAERO_Thunderbrand_DeltaModifier
 IF
-CharacterStatusApplied(_Char, "OdinAERO_THUNDERBRAND", _)
+    CharacterStatusApplied(_Char, "OdinAERO_THUNDERBRAND", _)
 AND
-CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
 AND
-NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinAERO_Thunderbrand")
+    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinAERO_Thunderbrand")
 THEN
-ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinAERO_Thunderbrand");
+    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinAERO_Thunderbrand");
  //END_REGION
 
 //REGION OBAERO_Induce_Enemy_Conduit
