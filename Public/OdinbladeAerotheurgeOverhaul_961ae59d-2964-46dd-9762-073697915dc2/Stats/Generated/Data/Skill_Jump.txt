@@ -37,6 +37,7 @@ data "Memory Cost" "1"
 data "Magic Cost" "0"
 data "Requirements" "!Immobile"
 data "MemorizationRequirements" "AirSpecialist 3"
+data "CycleConditions" "Enemy;!Dead"
 
 new entry "Jump_OdinAERO_Enemy_LightningWarp"
 type "SkillData"
