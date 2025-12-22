@@ -18,9 +18,6 @@ DB_OBCORE_EnemySkill_Pair("Shout_FavourableWind","Target_OdinAERO_Enemy_Overcast
 
 DB_OBCORE_EnemySkill_Pair("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield");
 
-DB_OBCORE_EnemySkill_Pair("Shout_FavourableWind","Cone_OdinAERO_Enemy_TurbulantWind");
-DB_OBCORE_EnemySkill_Pair("Tornado_EnemyAir","Cone_OdinAERO_Enemy_TurbulantWind");
-
 DB_OBCORE_EnemySkill_Pair("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft");
 
 DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyPressureSpike","Zone_OdinAERO_Enemy_RollingThunder", 10);

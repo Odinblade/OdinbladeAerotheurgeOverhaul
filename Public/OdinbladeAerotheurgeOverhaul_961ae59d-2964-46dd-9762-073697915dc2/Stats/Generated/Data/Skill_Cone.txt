@@ -122,12 +122,3 @@ data "Magic Cost" "0"
 data "MemorizationRequirements" "AirSpecialist 5"
 data "BackStart" "10"
 data "CycleConditions" "Enemy"
-
-new entry "Cone_OdinAERO_Enemy_TurbulantWind"
-type "SkillData"
-data "SkillType" "Cone"
-using "Cone_OdinAERO_TurbulantWind"
-data "ForGameMaster" "No"
-data "IsEnemySkill" "Yes"
-data "Memory Cost" "0"
-
