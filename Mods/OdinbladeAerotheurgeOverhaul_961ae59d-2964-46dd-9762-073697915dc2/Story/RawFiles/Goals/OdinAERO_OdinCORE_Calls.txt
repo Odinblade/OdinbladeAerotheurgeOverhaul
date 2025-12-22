@@ -6,6 +6,9 @@ DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemySuperconductor","Jump_OdinAERO_
 DB_OBCORE_EnemySkill_Pair_Level("Shout_EnemyBlindingRadiance","Jump_OdinAERO_Enemy_LightningWarp", 10);
 DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyVacuumTouch","Jump_OdinAERO_Enemy_LightningWarp", 8);
 
+DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyVacuumTouch","Shout_EnemyBreathingBubble", 6);
+DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyPressureSpike","Shout_EnemyBreathingBubble", 8);
+
 DB_OBCORE_EnemySkill_Pair("Projectile_EnemyChainLightning","Target_OdinAERO_Enemy_Conduit");
 DB_OBCORE_EnemySkill_Pair("Projectile_EnemyLightningBolt","Target_OdinAERO_Enemy_Conduit");
 DB_OBCORE_EnemySkill_Pair("ProjectileStrike_EnemyDazingBolt","Target_OdinAERO_Enemy_Conduit");

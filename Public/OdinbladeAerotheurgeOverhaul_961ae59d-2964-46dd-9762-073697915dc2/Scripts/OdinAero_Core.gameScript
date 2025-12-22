@@ -39,6 +39,7 @@ FLOAT3:_Pos
 ON
 	OnCharacterStatusApplied(_Character, OdinAERO_PROC_THUNDERINGBELLOW)
 	OnSkillCast(_Character, Shout_BreathingBubble)
+	OnSkillCast(_Character, Shout_EnemyBreathingBubble)
 	OnSkillCast(_Character, Shout_MassBreathingBubbles)
 ACTIONS
 	GetPosition(_Character, _Pos)
