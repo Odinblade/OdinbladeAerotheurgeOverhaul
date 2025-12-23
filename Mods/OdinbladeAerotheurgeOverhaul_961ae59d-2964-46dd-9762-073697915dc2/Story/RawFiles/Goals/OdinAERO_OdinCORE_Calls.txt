@@ -1,34 +1,6 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_OBCORE_EnemySkill_Pair("","");
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemySuperconductor","Jump_OdinAERO_Enemy_LightningWarp", 8);
-DB_OBCORE_EnemySkill_Pair_Level("Shout_EnemyBlindingRadiance","Jump_OdinAERO_Enemy_LightningWarp", 10);
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyVacuumTouch","Jump_OdinAERO_Enemy_LightningWarp", 8);
-
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyVacuumTouch","Shout_EnemyBreathingBubble", 6);
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyPressureSpike","Shout_EnemyBreathingBubble", 8);
-
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyChainLightning","Target_OdinAERO_Enemy_Conduit");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyLightningBolt","Target_OdinAERO_Enemy_Conduit");
-DB_OBCORE_EnemySkill_Pair("ProjectileStrike_EnemyDazingBolt","Target_OdinAERO_Enemy_Conduit");
-
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyLightningBolt","Projectile_OdinAERO_Enemy_VoltAssault", 6);
-
-DB_OBCORE_EnemySkill_Pair("Target_ShockingTouch","Shout_OdinAERO_Enemy_Thunderbrand");
-
-DB_OBCORE_EnemySkill_Pair("Shout_FavourableWind","Target_OdinAERO_Enemy_Overcast");
-
-DB_OBCORE_EnemySkill_Pair("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield");
-
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft");
-
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyPressureSpike","Zone_OdinAERO_Enemy_RollingThunder", 10);
-
-DB_OBCORE_EnemySkill_Pair("Target_EnemyWindwalker","Target_OdinAERO_Enemy_Apportation");
-DB_OBCORE_EnemySkill_Pair_Level("Teleportation_EnemyFreeFall","Target_OdinAERO_Enemy_Apportation", 4);
-DB_OBCORE_EnemySkill_Pair_Level("Teleportation_EnemyFeatherFall","Target_OdinAERO_Enemy_Apportation", 4);
-
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
 DB_OBCORE_CustomVendor(OdinAERO_Trader_000_9ac80cd1-2e94-4c49-a86f-362eec074b95, "OdinAERO_Vendor_01"); //Fort Joy - Square
@@ -44,7 +16,47 @@ DB_OBCORE_CustomVendor(OdinAERO_Trader_000_82f818be-52fa-4bcf-9d54-e07c39f6752d,
 
 //Arx
 DB_OBCORE_CustomVendor(OdinAERO_Trader_000_01edcc7d-7260-45c8-9cd1-970df9f88cdd, "OdinAERO_Vendor_01"); //Arx Square
+
 KBSECTION
+IF
+GameStarted(_, _)
+THEN
+PROC_OBAERO_ConfigureEnemySkills();
+
+IF
+SavegameLoaded(_,_,_,_)
+THEN
+PROC_OBAERO_ConfigureEnemySkills();
+
+PROC
+PROC_OBAERO_ConfigureEnemySkills()
+THEN
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemySuperconductor","Jump_OdinAERO_Enemy_LightningWarp", 8);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyBlindingRadiance","Jump_OdinAERO_Enemy_LightningWarp", 10);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Jump_OdinAERO_Enemy_LightningWarp", 8);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Shout_EnemyBreathingBubble", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Shout_EnemyBreathingBubble", 8);
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyChainLightning","Target_OdinAERO_Enemy_Conduit");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyLightningBolt","Target_OdinAERO_Enemy_Conduit");
+PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyDazingBolt","Target_OdinAERO_Enemy_Conduit");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyLightningBolt","Projectile_OdinAERO_Enemy_VoltAssault", 6);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_ShockingTouch","Shout_OdinAERO_Enemy_Thunderbrand");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Target_OdinAERO_Enemy_Overcast");
+
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft");
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Zone_OdinAERO_Enemy_RollingThunder", 10);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWindwalker","Target_OdinAERO_Enemy_Apportation");
+PROC_OBCORE_AddEnemySkillEntry("Teleportation_EnemyFreeFall","Target_OdinAERO_Enemy_Apportation", 4);
+PROC_OBCORE_AddEnemySkillEntry("Teleportation_EnemyFeatherFall","Target_OdinAERO_Enemy_Apportation", 4);
 
 EXITSECTION
 
