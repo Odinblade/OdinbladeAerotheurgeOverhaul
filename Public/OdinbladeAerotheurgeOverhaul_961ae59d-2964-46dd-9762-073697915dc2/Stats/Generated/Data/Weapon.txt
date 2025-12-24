@@ -121,6 +121,6 @@ data "ModifierType" "Item"
 data "Damage Type" "Air"
 data "Damage" "1"
 data "Damage Range" "5"
-data "DamageFromBase" "35"
+data "DamageFromBase" "20"
 data "Charges" "0"
 
