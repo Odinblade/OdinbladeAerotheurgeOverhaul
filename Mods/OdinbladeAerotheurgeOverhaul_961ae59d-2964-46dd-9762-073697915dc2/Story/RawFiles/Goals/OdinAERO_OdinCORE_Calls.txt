@@ -46,11 +46,11 @@ PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyLightningBolt","Projectile_OdinA
 
 PROC_OBCORE_AddEnemySkillEntry("Target_ShockingTouch","Shout_OdinAERO_Enemy_Thunderbrand");
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Target_OdinAERO_Enemy_Overcast");
+PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Target_OdinAERO_Enemy_Overcast", 4);
 
-PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield");
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield", 4);
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Zone_OdinAERO_Enemy_RollingThunder", 10);
 
