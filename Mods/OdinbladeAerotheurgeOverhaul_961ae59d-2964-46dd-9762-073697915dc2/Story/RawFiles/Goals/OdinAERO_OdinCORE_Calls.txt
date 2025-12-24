@@ -58,6 +58,11 @@ PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWindwalker","Target_OdinAERO_Enemy_A
 PROC_OBCORE_AddEnemySkillEntry("Teleportation_EnemyFreeFall","Target_OdinAERO_Enemy_Apportation", 4);
 PROC_OBCORE_AddEnemySkillEntry("Teleportation_EnemyFeatherFall","Target_OdinAERO_Enemy_Apportation", 4);
 
+PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Cone_OdinAERO_Enemy_TurbulantWind", 4);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Cone_OdinAERO_Enemy_TurbulantWind", 6);
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Cone_OdinAERO_Enemy_Aeroblast", 10);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Cone_OdinAERO_Enemy_Aeroblast", 10);
 EXITSECTION
 
 ENDEXITSECTION
