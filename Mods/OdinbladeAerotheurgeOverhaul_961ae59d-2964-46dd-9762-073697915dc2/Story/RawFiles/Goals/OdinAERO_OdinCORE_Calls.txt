@@ -44,13 +44,17 @@ PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyDazingBolt","Target_OdinAE
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyLightningBolt","Projectile_OdinAERO_Enemy_VoltAssault", 6);
 
-PROC_OBCORE_AddEnemySkillEntry("Target_ShockingTouch","Shout_OdinAERO_Enemy_Thunderbrand");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemySuperconductor","Shout_OdinAERO_Enemy_Thunderbrand");
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyShockingTouch","Shout_OdinAERO_Enemy_Thunderbrand");
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Target_OdinAERO_Enemy_Overcast", 4);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Overcast", 4);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Target_OdinAERO_Enemy_Overcast", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Target_OdinAERO_Enemy_InsulationShield", 4);
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft", 4);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Target_OdinAERO_Enemy_Updraft", 8);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Target_OdinAERO_Enemy_Updraft", 8);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Target_OdinAERO_Enemy_Updraft", 10);
 
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Zone_OdinAERO_Enemy_RollingThunder", 10);
 
@@ -58,11 +62,14 @@ PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWindwalker","Target_OdinAERO_Enemy_A
 PROC_OBCORE_AddEnemySkillEntry("Teleportation_EnemyFreeFall","Target_OdinAERO_Enemy_Apportation", 4);
 PROC_OBCORE_AddEnemySkillEntry("Teleportation_EnemyFeatherFall","Target_OdinAERO_Enemy_Apportation", 4);
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Cone_OdinAERO_Enemy_TurbulantWind", 4);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Cone_OdinAERO_Enemy_TurbulantWind", 4);
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Cone_OdinAERO_Enemy_TurbulantWind", 6);
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_FavourableWind","Cone_OdinAERO_Enemy_Aeroblast", 10);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFavourableWind","Cone_OdinAERO_Enemy_Aeroblast", 10);
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Cone_OdinAERO_Enemy_Aeroblast", 10);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyShockingTouch","MultiStrike_OdinAERO_EnemyThunderVault", 8);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemySuperconductor","MultiStrike_OdinAERO_EnemyThunderVault", 8);
 EXITSECTION
 
 ENDEXITSECTION
