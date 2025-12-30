@@ -39,6 +39,7 @@ PROC_OBCORE_AddEnemySkillEntry("Target_EnemyVacuumTouch","Shout_EnemyBreathingBu
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Shout_EnemyBreathingBubble", 8);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyLightningBolt","Projectile_OdinAERO_Enemy_VoltAssault", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPressureSpike","Projectile_OdinAERO_Enemy_VoltAssault", 6);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemySuperconductor","Shout_OdinAERO_Enemy_Thunderbrand");
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyShockingTouch","Shout_OdinAERO_Enemy_Thunderbrand");
